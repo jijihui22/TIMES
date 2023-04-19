@@ -9,7 +9,7 @@ let url;
 const getNews = async () => {
     try{
     let header = new Headers({
-    "x-api-key":"k5mXkeh7GqBR2013CFXB1AZIMkKLN78TZzQdyX3TEVQ"})
+    "x-api-key":"9AD3lsXhNa1JXH6SRN3qH5U8HIPNv0G3Pud0sNkcgho"})
     url.searchParams.set('page',page)
         console.log(url)
     let response = await fetch(url, {headers : header})
